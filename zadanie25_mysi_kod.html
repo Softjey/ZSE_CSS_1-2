@@ -1,0 +1,180 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html">
+<style>
+body {
+    background-color: gray;
+}
+textarea {
+    width: 90%;
+    height: 40%;
+    resize: none;
+ }
+
+ </style>
+</style>
+</head>
+<body>
+    <h2>HTML-kod</h2>
+    <textarea disabled readonly><!DOCTYPE html>
+<html>
+    <head>
+        <title>Właściwości czcionek-Mysiv</title>
+        <link rel="stylesheet" type="text/css" href="czcionki_mysiv.css">
+    </head>
+    <body>
+        <h1 class="headText">Mysiv Sviatoslav, 1P, №1</h1>
+        <h2 class="akapitHead">Akapit 1- centrowany</h2>
+
+        <p>
+            rodzina czcionki 1 (patrz tabela Sposób kodowania rodziny czcionek") czyli--> <b>serif</b>
+            <br><br>
+            kolory tekstu (patrz pierwsza tabela kolorów" wg numeru w dzienniku) czyli--> <b>Odcienie koloru różowego</b>
+            <br><br>
+            dekoracja tekstu 3 (patrz tabela,,Sposób kodowania dekoracji tekstu") jedno zdanie w tekście czyli--> <b>Nadkreślić</b>
+            <br><br>
+            styl czcionek 2 (patrz tabela „Sposób kodowania stylu tekstu") jedno zdanie w tekście czyli--> <b>italic </b>
+            <br><br>
+            wariant czcionki--> kapitaliki, jedno zdanie w tekście grubości czcionek:
+        </p>
+
+        <p>grubości czcionek:</p>
+        <ul>
+            <li>jedno zdanie w tekście -> 200</li>
+            <li>jedno zdanie w tekście -> 700</li>
+            <li>jedno zdanie w tekście -> 900</li>
+        </ul>
+
+        <p>rozmiary czcionek:</p>
+        <ul>
+            <li>jedno zdanie w tekście -> 2</li>
+            <li>jedno zdanie w tekście -> 4</li>
+            <li>jedno zdanie w tekście -> 5</li>
+        </ul>
+        <p>transformacja tekstu: jedno zdanie w tekście ma być wyświetlane dużymi literami</p>
+
+        <p>wcięcia tekstu: 2cm</p>
+        <ul>
+            <li>odstępy między: wierszami 1cm</li>
+            <li>odstępy między: wyrazami 12px</li>
+            <li>odstępy między: literami 5ex</li>
+        </ul>
+
+
+        <p id="first_p"><span id="f_1">Informatyka to dziedzina nauki zajmująca się przetwarzaniem informacji za pomocą komputerów oraz ich aplikacji i systemów.</span><span id="f_2">Informatyka ma znaczący wpływ na rozwój technologiczny oraz cyfryzację społeczeństwa i gospodarki.</span><span id="f_3"> Dzięki informatyce możliwe jest przechowywanie, przetwarzanie i przesyłanie informacji w sposób szybki, efektywny i bezpieczny.</span></p>
+
+
+        <h2 class="akapitHead1">Akapit 1- do prawej</h2>
+
+        <p>
+            rodzina czcionki 1 (patrz tabela Sposób kodowania rodziny czcionek") czyli--> <b>sans-serif</b>
+            <br><br>
+            kolory tekstu (patrz pierwsza tabela kolorów" wg numeru w dzienniku) czyli--> <b>Odcienie koloru żoltego</b>
+            <br><br>
+            dekoracja tekstu 3 (patrz tabela,,Sposób kodowania dekoracji tekstu") jedno zdanie w tekście czyli--> <b>Przekreślić </b>
+            <br><br>
+            styl czcionek 2 (patrz tabela „Sposób kodowania stylu tekstu") jedno zdanie w tekście czyli--> <b>oblique </b>
+            <br><br>
+            wariant czcionki--> kapitaliki, jedno zdanie w tekście grubości czcionek:
+        </p>
+
+        <p>grubości czcionek:</p>
+        <ul>
+            <li>jedno zdanie w tekście -> 300</li>
+            <li>jedno zdanie w tekście -> 600</li>
+            <li>jedno zdanie w tekście -> 800</li>
+        </ul>
+
+        <p>rozmiary czcionek:</p>
+        <ul>
+            <li>jedno zdanie w tekście -> 1</li>
+            <li>jedno zdanie w tekście -> 3</li>
+            <li>jedno zdanie w tekście -> 5</li>
+        </ul>
+        <p>transformacja tekstu: jedno zdanie w tekście ma być wyświetlane w taki sposób, aby każde nowe słowo zaczynało się z dużej litery</p>
+
+        <p>wcięcia tekstu: 25mm</p>
+        <ul>
+            <li>odstępy między: wierszami 15mm</li>
+            <li>odstępy między: wyrazami 10pt</li>
+            <li>odstępy między: literami 0.5cm</li>
+        </ul>
+
+
+
+
+        <p id="second_p"><span id="s_1">Informatyka to dziedzina nauki zajmująca się przetwarzaniem informacji za pomocą komputerów oraz ich aplikacji i systemów.</span><span id="s_2">Informatyka ma znaczący wpływ na rozwój technologiczny oraz cyfryzację społeczeństwa i gospodarki.</span><span id="s_3"> Dzięki informatyce możliwe jest przechowywanie, przetwarzanie i przesyłanie informacji w sposób szybki, efektywny i bezpieczny.</span></p>
+
+
+    </body>
+</html></textarea>
+    <h2>CSS-kod</h2>
+    <textarea disabled readonly>
+.headText{
+    color: #ff0000;
+    font-size: 1cm;
+    text-align: right;
+}
+.akapitHead{
+    color: blue;
+    text-align: center;
+
+}
+.akapitHead1{
+    color: blue;
+    text-align: right;
+}
+#first_p{
+    font-family: serif;
+    color: pink;
+    text-decoration: overline;
+    font-style: italic;
+    text-indent: 2cm;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 5ex;
+
+}
+#f_1{
+    font-weight: 200;
+    font-size: x-small;
+}
+#f_2{
+    font-weight: 700;
+    font-size: medium;
+    text-transform: uppercase;
+}
+#f_3{
+    font-weight: 900;
+    font-size: large;
+}
+
+#second_p{
+    font-family: sans-serif;
+    color: yellow;
+    text-decoration: line-through;
+    font-style: oblique;
+    text-indent: 25mm;
+    line-height: 15mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.5cm;
+
+}
+#s_1{
+    font-weight: 300;
+    font-size: xx-small;
+}
+#s_2{
+    font-weight: 600;
+    font-size: small;
+    text-transform: capitalize;
+}
+#s_3{
+    font-weight: 800;
+    font-size: large;
+}</textarea>
+    <br>
+    <a href="start.html" target="strony">wroć</a>
+
+</body>
+</html>
