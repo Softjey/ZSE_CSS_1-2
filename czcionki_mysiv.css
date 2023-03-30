@@ -4,17 +4,17 @@
     text-align: right;
 }
 .akapitHead{
-    color: #00ffff;
+    color: blue;
     text-align: center;
 
 }
 .akapitHead1{
-    color: #00ffff;
+    color: blue;
     text-align: right;
 }
 #first_p{
     font-family: serif;
-    color: #ffc0cb;
+    color: pink;
     text-decoration: overline;
     font-style: italic;
     text-indent: 2cm;
@@ -39,7 +39,7 @@
 
 #second_p{
     font-family: sans-serif;
-    color: #eaddca;
+    color: yellow;
     text-decoration: line-through;
     font-style: oblique;
     text-indent: 25mm;
