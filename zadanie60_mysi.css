@@ -1,0 +1,21 @@
+div {
+    width: 620px;
+    background-color: green;
+    margin-bottom: 3%;
+ }
+ #blok1_Mysiv:hover{
+    background-color: blue;
+ }
+ #blok2_Mysiv:hover{
+    background-color: lightgreen;
+ }
+ #blok3_Mysiv:hover{
+    background-color: red;
+ }
+ div:hover {
+    font-size: 19mm;
+ }
+
+
+/*hover -> gdy użytkownik najedzie kursorem na dany element
+Mysiv Sviatoslav*/
